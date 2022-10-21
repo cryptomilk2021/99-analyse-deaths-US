@@ -1,0 +1,127 @@
+df_hh_income
+------------
+poverty_rates_in_each_state.py
+poverty_rates_by_state.png
+
+What is the shape of the DataFrames?
+(29322, 3)
+How many rows and columns do they have?
+29321 rows and 3 columns
+What are the column names?
+['Geographic Area' 'City' 'Median Income']
+Are there any NaN values or duplicates?
+Yes to Nulls, print(df_hh_income.isnull().values.any()) returns True
+duplicates = no
+0        False
+1        False
+2        False
+3        False
+4        False
+         ...
+29317    False
+29318    False
+29319    False
+29320    False
+29321    False
+Length: 29322, dtype: bool
+
+High School Graduation Rate
+---------------------------
+High_School_Graduation_Rate.py
+High_School_Graduation_Rate.png
+lowest = percent_completed_hs   74.09
+Name: TX, dtype: float64
+highest = percent_completed_hs   92.03
+Name: MA, dtype: float64
+
+Relationship between Poverty Rates and High School Graduation Rates
+-------------------------------------------------------------------
+poverty_vs_graduation_rates.py
+poverty_vs_graduation_rates.png
+
+poverty_vs_graduation_rates_seaborn.py
+poverty_vs_graduation_rates_seaborn.png
+
+poverty_vs_graduation_rates_seaborn2.py
+poverty_vs_graduation_rates_seaborn2.png
+
+Racial Makeup
+-------------
+racial_makeup.py
+racial_makeup.png
+
+People Killed by
+----------------
+people_killed.py
+people_killed.png
+
+Men vs Women
+------------
+men_vs_women.py
+men_vs_women.png
+
+Box Plot Showing the Age and Manner of Death
+--------------------------------------------
+box_plot.py
+box_plot.png
+
+People Armed
+------------
+People_Armed.py
+People_Armed.png
+
+female = 4.22%
+male = 95.78%
+unarmed = 171
+guns = 1398
+
+How Old Were the People Killed
+------------------------------
+how_old.py
+how_old.png
+
+KDE plot for each race
+----------------------
+KDE_plot_for_each_race.py
+KDE_plot_for_each_race.png
+
+Race of People
+--------------
+Race_of_People.py
+Race_of_People.png
+
+Mental Illness
+--------------
+Mental_Illness.py
+
+mental illness in killings = 24.97 %
+
+Cities with the Most Police Killings
+----------------------------------
+Cities_Killings.py
+
+city: Los Angeles - number of deaths: 39
+city: Phoenix - number of deaths: 31
+city: Houston - number of deaths: 27
+city: Chicago - number of deaths: 25
+city: Las Vegas - number of deaths: 21
+city: San Antonio - number of deaths: 20
+city: Columbus - number of deaths: 19
+city: Miami - number of deaths: 18
+city: Austin - number of deaths: 18
+city: St. Louis - number of deaths: 15
+
+Rate of Death by Race
+---------------------
+Rate_of_Death_by_Race.py
+Rate_of_Death_by_Race.png
+
+Choropleth Map
+--------------
+Choropleth_Map.py
+Choropleth_Map.png
+
+Killings Over Time
+------------------
+Killings_Over_Time.py
+Killings_Over_Time.png
